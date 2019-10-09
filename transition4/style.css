@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+section{
+    height: 100vh;
+    width: 100vw;
+
+}
+div{
+    position: relative;
+    width: 5%;
+    height: 10%;
+    border-radius: 50%;
+    background-color: red;
+    animation: test 8s infinite;
+}
+@keyframes test {
+   0% {left: 0%;}
+   25% {left: 90%;top: 0%;background-color: blue;}
+   50% {top:90%;left: 90%;background-color: green;}
+   75%{left:0;top: 90%;background-color:blueviolet;}
+   100%{top: 0%;left: 0%;}
+}
